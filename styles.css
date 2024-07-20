@@ -1,0 +1,58 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(to right, #ffcccb, #ffebcc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #ff9a9e;
+}
+
+h1 {
+    color: #ff6f61;
+}
+
+input[type="number"] {
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ff6f61;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff6f61;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4f4f;
+}
+
+#message {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #ff6f61;
+}
+
+#attempts {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #ff6f61;
+}
