@@ -26,7 +26,7 @@ Guess the Number Game: A fun and interactive game where players try to guess a r
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/guess-the-number-game.git
+    git clone https://github.com/ExyoOmar/guess-the-number-game.git
     ```
 
 2. **Navigate to the project directory**:
